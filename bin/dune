@@ -1,0 +1,5 @@
+(executable
+ (public_name pycaml)
+ (name main)
+ (libraries pycaml
+ parser))
