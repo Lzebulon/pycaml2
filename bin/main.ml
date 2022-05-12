@@ -4,7 +4,7 @@ let () =
   print_endline (Sys.getcwd ());
 
   let ic = open_in file in
-  let parsed = Parser.parse ic in
-  List.iter (Printf.printf "%s ") parsed;;
+  let tokens = Parser.lexer ic in
+  List.iter (Printf.printf "%s ") tokens;;
 
 
