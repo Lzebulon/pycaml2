@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github Lzebulon/pycaml2))
 
-(authors "Author Name")
+(authors "Lzebulon")
 
-(maintainers "Maintainer Name")
+(maintainers "Lzebulon")
 
 (license LICENSE)
 
@@ -17,10 +17,10 @@
 
 (package
  (name pycaml)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "ocaml with the mandatory indentations of python")
+ (description "ocaml with the mandatory indentations of python for learn how to create a compiler with a bullshit")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (pycaml indentation compiler python ocaml)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

@@ -1,6 +1,0 @@
-let a = 5;;
-(*This is a comment*)
-	let b =	10;;
-(* a another comment *)
-
-let test_float = 1.75;;
